@@ -4,8 +4,7 @@
            [javax.xml.validation SchemaFactory]
            [javax.xml XMLConstants]
            [java.io File InputStream StringReader]
-           [org.xml.sax ErrorHandler InputSource]
-           [javax.xml.transform.stream.StreamSource]))
+           [org.xml.sax ErrorHandler InputSource]))
 
 ; The latest version of the sitemaps.org schema.
 (def sitemap-xsd (io/resource "org/sitemaps/schemas/0.9/sitemap.xsd"))
